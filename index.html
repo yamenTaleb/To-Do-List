@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">
+    <title>To-Do List Project</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo">
+            <h2>To-Do List <img src="images/icon.png" alt="To-Do Icon"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your mission.">
+                <button onclick="addMission()">Add</button>
+            </div>
+            <ul id="list-container">
+            </ul>
+            <button class="clear-botton" onclick="clearAll()">Clear All </button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
